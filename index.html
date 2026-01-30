@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramprasad Dube | QA Automation Engineer</title>
+  <style>
+    :root {
+      --primary: #0f172a;
+      --accent: #7c3aed;
+      --accent2: #06b6d4;
+      --bg: linear-gradient(135deg, #fdfcff, #eef2ff);
+      --cardbg: linear-gradient(135deg, #ffffff, #f1f5ff);
+      --text: #1e293b;
+      --muted: #475569;
+    }
+
+    body.dark {
+      --bg: linear-gradient(135deg, #020617, #020617);
+      --cardbg: #020617;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      transition: background 0.4s ease, color 0.4s ease;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 120px 1fr auto;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 50px;
+      padding: 30px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: white;
+    }
+
+    header img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid rgba(255,255,255,0.6);
+    }
+
+    header h1 { font-size: 2.4rem; }
+    header h2 { font-size: 1.1rem; font-weight: 500; color: #e0e7ff; }
+
+    .controls button {
+      background: rgba(255,255,255,0.2);
+      border: none;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-left: 6px;
+    }
+
+    section {
+      margin-bottom: 50px;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.7s ease;
+    }
+
+    section.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    section h3 {
+      font-size: 1.4rem;
+      margin-bottom: 16px;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      border-left: 5px solid var(--accent);
+      padding-left: 12px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--cardbg);
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover { transform: translateY(-6px); }
+
+    .badge {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: white;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      margin: 6px 8px 0 0;
+    }
+
+    .icons a {
+      margin-right: 14px;
+      font-size: 1.2rem;
+      color: var(--accent);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <h1>Ramprasad Dube</h1>
+      <h2>Senior QA Automation Engineer | AI-Driven QA</h2>
+      <p>Bangalore, India · +91-8088776295 · <a href="mailto:ramprasaddube33@gmail.com">ramprasaddube33@gmail.com</a></p>
+    </header>
+
+    <section>
+      <h3>About Me</h3>
+      <p>
+        Senior QA Automation Engineer with 4+ years of experience in Agile environments, specializing in Selenium WebDriver (Java)
+        and AI-driven testing using Testim.io. I build scalable automation frameworks, experiment with self-healing tests, and help
+        teams ship reliable products faster across E-commerce and Healthcare/IoT domains.
+      </p>
+    </section>
+
+    <section>
+      <h3>Core Expertise</h3>
+      <div class="grid">
+        <div class="card">AI-Driven Automation (Testim.io)</div>
+        <div class="card">Selenium WebDriver (Java, POM)</div>
+        <div class="card">Regression & Integration Testing</div>
+        <div class="card">API Testing (Postman, Swagger)</div>
+        <div class="card">Performance Testing (JMeter)</div>
+        <div class="card">CI/CD & Cloud Testing</div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Technical Skills</h3>
+      <div class="card">
+        <span class="badge">Selenium</span>
+        <span class="badge">Testim.io</span>
+        <span class="badge">Java</span>
+        <span class="badge">TestNG</span>
+        <span class="badge">Cucumber</span>
+        <span class="badge">Postman</span>
+        <span class="badge">Swagger</span>
+        <span class="badge">JMeter</span>
+        <span class="badge">Jenkins</span>
+        <span class="badge">Git</span>
+        <span class="badge">Azure DevOps</span>
+        <span class="badge">SQL</span>
+      </div>
+    </section>
+
+    <section>
+      <h3>Professional Experience</h3>
+      <div class="card">
+        <strong>Software QA Engineer – Collaborate Solutions Pvt Ltd</strong><br />
+        <em>Nov 2021 – Present | Staples & Fresenius Medical Care</em>
+        <ul>
+          <li>Implemented AI-driven automation using Testim.io to reduce script maintenance.</li>
+          <li>Built Selenium Java POM framework reducing regression cycle from 5 days to 2 days.</li>
+          <li>Executed API testing, performance validation, and CI-integrated regression suites.</li>
+          <li>Collaborated cross-functionally to support releases and production hotfixes.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h3>Key Achievements</h3>
+      <ul>
+        <li>⏱️ Reduced regression execution time by 60%</li>
+        <li>🤖 Introduced AI self-healing automation</li>
+        <li>🚀 Improved release confidence with shift-left testing</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+      <p>Bachelor of Engineering – STJ Institute of Technology (VTU), Karnataka | 2020</p>
+    </section>
+
+    <footer>
+      © 2026 Ramprasad Dube · QA Automation Portfolio
+    </footer>
+
+  </div>
+</body>
+</html>
